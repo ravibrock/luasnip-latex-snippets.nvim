@@ -112,7 +112,7 @@ function M.retrieve(is_math)
     parse_snippet({ trig = "cc", name = "subset" }, "\\subset "),
 
     parse_snippet({ trig = "<->", name = "leftrightarrow", priority = 200 }, "\\leftrightarrow"),
-    parse_snippet({ trig = "...", name = "ldots", priority = 100 }, "\\ldots "),
+    parse_snippet({ trig = "...", name = "dots", priority = 100 }, "\\dots "),
     parse_snippet({ trig = "!>", name = "mapsto" }, "\\mapsto "),
     parse_snippet({ trig = "iff", name = "iff" }, "\\iff"),
     parse_snippet({ trig = "siff", name = "short iff", priority = 100}, "\\Leftrightarrow"),
@@ -123,7 +123,6 @@ function M.retrieve(is_math)
     parse_snippet({ trig = "floor", name = "floor" }, "\\left\\lfloor $1 \\right\\rfloor$0"),
     parse_snippet({ trig = "mcal", name = "mathcal" }, "\\mathcal{$1}$0"),
     parse_snippet({ trig = "//", name = "Fraction" }, "\\frac{$1}{$2}$0"),
-    parse_snippet({ trig = "\\\\\\", name = "setminus" }, "\\setminus"),
     parse_snippet({ trig = "->", name = "to", priority = 100 }, "\\to "),
     parse_snippet({ trig = "-->", name = "long to", priority = 200 }, "\\longrightarrow "),
 
